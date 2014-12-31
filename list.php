@@ -32,5 +32,5 @@
 		}
 		echo '<li><a target="_blank" title="'.$nombreAdherido.'" href="' . $protocol . '://'.$_SERVER["SERVER_NAME"].'/empresas/'.$adherido->getNombreFicha(). '.htm' . ((isset($_REQUEST["lang"]) && $_REQUEST["lang"] == "en") ? "?lang=en": "") . '">'.$nombreAdherido.'</a></li>';
 					
-		} ?>
+	} ?>
 </div>
