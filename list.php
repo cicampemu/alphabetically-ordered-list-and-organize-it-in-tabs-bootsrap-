@@ -6,7 +6,7 @@
 							$adherido = $lista_adheridos_filtrada[$i];
 							$nombreAdherido = $adherido->getNombreEntidad();
 							$initial = strtoupper($nombreAdherido[0]);
-							// if there is a change in the first letter of the elements of the list, then output the letter in a tab that will control the display of content (href="#.$letter.").
+							// if there is a change in the first letter of the elements of the list, then output the letter in a tab that will control (data-toggle=tab) the display of content (href="#.$letter.").
 							if($letter != $initial){
 								$letter = $initial;
 								echo "<li role=\"presentation\"><a data-toggle=\"tab\" href=\"#".$letter."\">".$letter."</a></li>";
